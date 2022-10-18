@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    min-width: 100vw;   
+    min-height: 100vh;
+}
+
+#container {
+    display: flex;
+}
+
+#container div {
+    padding: 10px;
+    border: 1px #ccc solid;
+}
+
+.container_1 {
+    background-color: aqua;
+}
+
+.container_2 {
+    background-color: gold;
+}
+
+.container_3 {
+    background-color: lime;
+}
